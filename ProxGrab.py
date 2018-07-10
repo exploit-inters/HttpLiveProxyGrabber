@@ -21,7 +21,7 @@ class RangeIP_Generate(object):
         Main()
 
 
-    def Generate_IP(self, start_ip, end_ip):
+    def Generate_IP(self, start_ip, end_ip):   # Thanks --> cmikavac.net
         Start = list(map(int, start_ip.split(".")))
         end = list(map(int, end_ip.split(".")))
         rec = Start
